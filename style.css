@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.status-card {
+  min-height: 220px;
+}
+
+.site-footer {
+  margin-top: 24px;
+  padding: 16px 20px;
+  border-top: 1px solid #dbe4ee;
+  background: #f8fafc;
+  border-radius: 16px;
+  display: grid;
+  place-items: center;
+}
+
+.site-footer p {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.95rem;
+  color: #334155;
+  animation: footerGlow 2s ease-in-out infinite;
+}
+
+.footer-brand {
+  font-weight: 700;
+  color: #0f766e;
+}
+
+.footer-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #22c55e;
+  display: inline-block;
+  animation: pulseDot 1.2s infinite;
+}
+
